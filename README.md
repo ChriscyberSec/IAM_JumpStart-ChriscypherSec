@@ -47,6 +47,16 @@ Following best practices, I had to assign these policies to Groups, not individu
 
 <img width="750" height="415" alt="AWS-group-policiez" src="https://github.com/user-attachments/assets/ca381357-f98e-4307-8f15-4e3780e2906d" />
 
+## Created two users and added them to their specific groups
+
+<img width="737" height="388" alt="AWS-userz" src="https://github.com/user-attachments/assets/ffb85b7e-b158-4d13-b5a2-c18b93b4fd56" />
+
+## Checked each users privileges and certain permissions they have within shared resources
+
+<img width="944" height="419" alt="AWS-Tommy-DB" src="https://github.com/user-attachments/assets/0b5fc69b-467f-4f03-bb17-4a77bb06c820" />
+
+
+
 
 
 
