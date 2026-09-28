@@ -20,11 +20,35 @@ Building practical SOC skills through hands-on SIEM detection engineering and IA
 - Okta — identity federation, SSO, and lifecycle management across SaaS applications
 - CyberArk — privileged access management (PAM), securing and auditing privileged/admin credentials
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+  ## Project 1 : Hands-On AWS Project: Enforcing Least Privilege with IAM Policies
 
-Every screenshot should have some text explaining what the screenshot is about.
+## Steps 1: Created  a Sandbox S3 Bucket (The Resource)
 
-Example below.
+<img width="935" height="350" alt="AWS-bucket" src="https://github.com/user-attachments/assets/d576b26f-4f0f-4490-aa7c-0f92b3b5987d" />
+
+## Two S3 bucket resources created specifically for the Development and Production Teams
+
+<img width="609" height="447" alt="AWS" src="https://github.com/user-attachments/assets/c0f1518e-01e3-437e-9395-fc9d670d66eb" />
+
+## Step 2: Wrote Custom Least-Privilege JSON Policies
+
+## Policy A: Software Engineer Policy(as jmpstart-iam-software-poliy)
+
+<img width="609" height="447" alt="AWS-policy2" src="https://github.com/user-attachments/assets/b9adf2f4-33df-4c47-824d-1c21df0f2da7" />
+
+
+
+## Policy B : Database Administrator Policy(as jmpstart-iam-DBA-policy)
+
+<img width="758" height="416" alt="AWS-policiez" src="https://github.com/user-attachments/assets/245b4026-1eae-4cbf-b4f7-a7fd86768768" />
+
+## Step 3: Created User Groups and Assign Personas
+Following best practices, I had to assign these policies to Groups, not individual users.
+
+<img width="750" height="415" alt="AWS-group-policiez" src="https://github.com/user-attachments/assets/ca381357-f98e-4307-8f15-4e3780e2906d" />
+
+
+
+
 
 *Ref 1: Network Diagram*
